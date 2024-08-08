@@ -61,3 +61,16 @@
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: 450px) {
+  .header {
+    padding: 2.6rem;
+  }
+  .logo {
+    height: 2.5rem;
+  }
+
+  .navList a {
+    font-size: 1.4rem;
+  }
+}
