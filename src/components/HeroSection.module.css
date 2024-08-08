@@ -74,6 +74,12 @@
   background-color: var(--intro-background-color);
 }
 
+@media (max-width: 450px) {
+  .overlay {
+    left: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   .heroSection {
     width: 100%;
@@ -101,7 +107,7 @@
   }
   .overlay {
     top: 67%;
-    transform: translateX(-50%) scale(1.46);
+    transform: translateX(-50%) scale(1);
   }
 
   .backgroundOverlay {
