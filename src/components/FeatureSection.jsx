@@ -41,7 +41,6 @@ function FeatureSection() {
           </p>
         </div>
       </div>
-      1
     </section>
   );
 }

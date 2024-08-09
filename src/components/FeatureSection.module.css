@@ -8,7 +8,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  padding: 8rem;
   z-index: 9999;
   position: relative;
   row-gap: 10rem;
@@ -44,6 +44,7 @@
   .features {
     grid-template-columns: 1fr;
     padding: 18rem 1rem 1rem 1rem;
+    padding: 8rem;
     width: 90%;
   }
   .features img {
