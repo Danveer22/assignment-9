@@ -1,6 +1,6 @@
 .featureSection {
   min-height: 100vh;
-  background-color: var(--main-background-color);
+  margin-bottom: 4rem;
 }
 
 .features {
@@ -43,8 +43,8 @@
 @media (max-width: 768px) {
   .features {
     grid-template-columns: 1fr;
-    padding: 18rem 1rem 1rem 1rem;
-    padding: 8rem;
+    /* padding: 18rem 1rem 1rem 1rem; */
+    padding: 8rem 1rem 1rem 1rem;
     width: 90%;
   }
   .features img {

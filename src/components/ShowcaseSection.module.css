@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   gap: 10rem;
-  background-color: var(--main-background-color);
   padding: 4rem 16rem;
+  margin-bottom: 12rem;
 }
 
 .showcaseContent {
@@ -20,6 +20,13 @@
 .showcaseContent p {
   font-size: 1.8rem;
   line-height: 1.6;
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .showcaseImage {
@@ -51,9 +58,24 @@
 @media (max-width: 768px) {
   .showcaseSection {
     flex-direction: column;
+    padding: 2rem 4rem;
     gap: 2rem;
+    padding-top: 8rem;
+  }
+  .imageWrapper {
+    height: 30rem;
   }
   .showcaseImage {
     transform: scale(0.5);
+  }
+  .showcaseContent h2 {
+    font-size: 2rem;
+  }
+
+  .showcaseContent p {
+    font-size: 1.4rem;
+  }
+  .ctaButton {
+    font-size: 1.6rem;
   }
 }

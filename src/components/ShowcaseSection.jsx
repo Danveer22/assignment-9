@@ -11,10 +11,7 @@ function ShowcaseSection() {
         />
       </figure>
       <div className={styles.showcaseContent}>
-        <h2>
-          Stay productive,
-          <br /> wherever you are
-        </h2>
+        <h2>Stay productive, wherever you are</h2>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
