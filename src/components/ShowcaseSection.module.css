@@ -35,7 +35,8 @@
 
 .ctaButton {
   font-size: 2rem;
-  color: var(--cta-cyan-color);
+  padding: 0.4rem;
+  color: var(--cta-cyan-color) !important;
   display: flex;
   line-height: 1.5;
   align-items: center;
@@ -44,16 +45,29 @@
   border-bottom: 1px solid currentColor;
 }
 
-.ctaButton:hover,
-.ctaButton:active {
-  color: var(--white-color);
-  border-color: currentColor;
+.arrowIcon {
+  color: #111;
+  font-size: 1.2rem;
+  background-color: var(--cta-cyan-color);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
 }
 
-/* .ctaButton:hover,
+.ctaButton:hover,
+.ctaButton:active {
+  color: var(--white-color) !important;
+  border-color: currentColor !important;
+}
+
+.ctaButton:hover .arrowIcon,
 .ctaButton:active .arrowIcon {
-  fill: white;
-} */
+  background-color: var(--white-color);
+}
 
 @media (max-width: 768px) {
   .showcaseSection {

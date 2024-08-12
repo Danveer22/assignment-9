@@ -41,3 +41,7 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.cta-footer {
+  position: relative;
+}

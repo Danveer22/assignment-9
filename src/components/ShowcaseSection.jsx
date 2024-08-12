@@ -22,11 +22,9 @@ function ShowcaseSection() {
         </p>
         <a href="#" className={styles.ctaButton}>
           See how Fylo works
-          <img
-            src="/images/icon-arrow.svg"
-            alt="Arrow icon"
-            className={styles.arrowIcon}
-          />
+          <span className={styles.arrowIcon}>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </span>
         </a>
       </div>
     </section>

@@ -4,6 +4,7 @@
   grid-template-columns: repeat(3, 42rem);
   justify-content: space-between;
   position: relative;
+  margin-bottom: 30rem;
 }
 
 .testimonial {
